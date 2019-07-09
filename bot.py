@@ -4,7 +4,7 @@ import time
 
 current_time_millis = lambda: int(round(time.time() * 1000))
 
-TOKEN = 'NTk3ODk3MzA2MTI1MjM4MzMz.XSSTbw.rklvd7EoL5zRwNW_zcCgqnLb7-A'
+TOKEN = ''
 
 client = discord.Client()
 
