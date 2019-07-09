@@ -4,7 +4,8 @@ import time
 
 current_time_millis = lambda: int(round(time.time() * 1000))
 
-TOKEN = ''
+tk_file = open('token.txt', 'r')
+TOKEN = tk_file.read()
 
 client = discord.Client()
 
